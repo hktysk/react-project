@@ -51,5 +51,14 @@ module.exports = {
     extensions: ['.js', '.ts', '.tsx'],
     modules: ['node_modules']
   },
+  devServer: {
+    contentBase: `${__dirname}/public`,
+    watchContentBase: true,
+    historyApiFallback: true, // react-router のため
+    disableHostCheck: true, // 0.0.0.0 のアクセスを許可するため
+    hot: true,
+    inline: true,
+    open: true
+  },
   plugins: []
 }
