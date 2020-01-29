@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hktysk/react-project/issues"
   },
-  "homepage": "https://github.com/hktysk/react-project#readme"
+  "homepage": "https://github.com/hktysk/react-project#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
 }
