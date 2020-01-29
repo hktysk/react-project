@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App: React.FC = () => (
-  <div>OK, React</div>
+  <div data-test="init">OK, React</div>
 )
 
 export default App;
